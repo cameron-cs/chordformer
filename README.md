@@ -123,11 +123,15 @@ Chordformer holds promise for a wide range of applications:
 
 • Choi, Keunwoo Fazekas, Gyo ̈rgy Sandler, Mark Cho, Kyunghyun. (2017). Convolutional recurrent neural networks for music classification
 
-Available at: https://arxiv.org/abs/1609.04243 [Online]
+Available at: https://arxiv.org/abs/1609.04243 
+
+[Online]
 
 [Accessed 14 September 2024].
 
-• Gong, Yuan Chung, Yu-An Glass, James. (2021). AST: Audio Spectrogram Transformer Available at: https://arxiv.org/pdf/2104.01778
+• Gong, Yuan Chung, Yu-An Glass, James. (2021). AST: Audio Spectrogram Transformer 
+
+Available at: https://arxiv.org/pdf/2104.01778
 
 [Online]
 
