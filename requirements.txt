@@ -1,0 +1,6 @@
+numpy
+torch
+torchaudio
+matplotlib
+scikit-learn
+pyyaml

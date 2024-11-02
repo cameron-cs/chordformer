@@ -1,0 +1,23 @@
+config:
+  data:
+    data_dir: "/path/to/the/dataset"      # path to the dataset
+    test_size: 0.2                        # fraction of the data to be used for testing
+    random_state: 42                      # random seed for reproducibility
+
+  training:
+    batch_size: 64                        # batch size for training
+    num_epochs: 50                        # num of training epochs
+    learning_rate: 0.0001                 # learning rate for the optimizer
+    input_shape:                          # shape of the input data
+      - 64
+      - 128
+
+  model:
+    num_chords: 8                         # number of output classes for chords
+    num_styles: 4                         # number of output classes for styles
+    guitar_types: 3                       # number of guitar types
+    guitar_statuses: 2                    # number of guitar statuses (e.g., real/synthetic)
+    sample_rate: 16000                    # audio sample rate
+    n_fft: 1024                           # number of FFT components for spectrogram
+    hop_length: 512                       # hop length for spectrogram
+    n_mels: 64                            # number of Mel filter banks
